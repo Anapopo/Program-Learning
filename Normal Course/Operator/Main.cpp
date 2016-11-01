@@ -35,8 +35,9 @@ public:
 int main()
 {
 	Point p1(1,3),p2(2,4),p3;
-	p3=p1++;
-	p3.show();
+	++p1;
+	p3=p1+p2;
 	p1.show();
+	p3.show();
 	return 0;
 }
